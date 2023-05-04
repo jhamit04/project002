@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+    font-family: 'Orbitron', sans-serif;
 }
  .container {
     width: 90%;
@@ -18,7 +18,7 @@ nav.navbar-container {
 }
 li.list-item {
     display: inline-block;
-    width: 19%;
+    width: 14%;
 }
 .button-group> div{
     display: inline-block; 
@@ -43,10 +43,101 @@ li.list-item {
     width: 14%;
  }
  button.nav-button {
-    width: 100%;
+    width: 84%;
     height: 32px;
     border-radius: 13px;
 }
 .search-icon> svg{
     width: 82%;
+}
+span.square {
+    height: 40%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 242px;
+}
+span.square>img{
+    width: 100%;
+    height: 100%;
+}
+element.style {
+    /* display: inline-block; */
+    height: 74%;
+    width: 31%;
+    z-index: -1; 
+    position: relative;
+    /* right: 26px; */
+}
+div person-hero-image{
+    width: 100%;
+    height: 100%;
+}
+.hero-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+span.square {
+    height: 65%;
+    width: 20%;
+    position: absolute;
+    top: 209px;
+    left: 144px;
+    z-index: -1;
+}
+span.square>img {
+    width: 100%;
+    height: 100%;
+}
+.star{
+    float: right;
+    width: 3%;
+    position: relative;
+    top: 49px;
+    right: 117px;
+}
+img[alt="start-pattern"]{
+    height: 100%;
+    width: 100%;
+}
+.globe{
+    float: right;
+    right: 472px;
+    position: relative;
+    width: 4%;
+    display: inline-block;
+}
+img[alt="globe-pattern"]{
+    width: 100%;
+    height: 100%;
+}
+img[alt="person-hero-iamge"] {
+    height: 100%;
+    width: 27%;
+}
+.hero-container-right{
+    width: 69%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 108px;
+    right: 0px;
+}
+.hero-heading{
+    font-size: 4vw;
+}
+p.hero-description {
+    margin: 52px 113px 15px 113px;
+}
+button.button-email {
+    padding: 4px 22px;
+    border-radius: 10px;
+}
+button.button-join {
+    padding: 3px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin: 67px 0;
 }
